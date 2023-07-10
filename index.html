@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en"> <!--for language of website -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--use for to user friendly view for any device-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>WebPage</title> <!--for title-->
+</head>
+<body>
+
+    <main>
+        <!--heading tags-->
+        <h1>Hello World . .</h1> 
+        <h2>Hello World . .</h2>
+        <h3>Hello World . .</h3>
+        <h4>Hello World . .</h4>
+        <h5>Hello World . .</h5>
+        <h6>Hello World . .</h6>
+
+        <hr> <!--horizontal rular / line-->
+
+        <p> <!--for paragraph-->
+            sample paragraph
+        </p>
+
+        <!-- <h1> &curren; </h1>  <- this tag is use for display reserved character -->
+
+        <strong>Hello World . .</strong> <!--for strong heading-->
+        <br>
+
+        <b>BOLD</b> <!--use to bold text-->
+        <br><!--to break line / for next line-->
+
+        <i>italic </i><!--use for italic text-->
+        <br> <!--break line-->
+
+        <!--use for embrance text-->
+        <em> sample paragraph</em>
+        <br>
+
+        <u>underline text </u> <!--for underline text-->
+        <br>
+
+        <big>for big text</big>
+        <br>
+
+        <small> for small text </small> <!--to small text--> 
+        <br>
+
+        10<sup> 2 </sup> <!--use for superscript 10^2-->
+        <br>
+
+        log<sub> 2 </sub>10<!--use for subscript log2 10-->
+        <br>
+
+        <!--Anchor Tag-->
+        <!--target tag : is use for new tab-->
+        <!--can use img tag to show clickable image . .-->
+        <a href="https://www.google.com/" target="_main">
+            <img src="/Google_Logo.jpg" alt="Google" height="50" width="50">
+        </a> <!--absolute link: website link already available-->
+        <br>
+        
+        <a href="/hello.html">Hello Page</a> <!--relative link: to link our own relative page . .  -->
+        <hr>
+
+        <!--image tag-->
+        <!--use img by both absolute url or relative url-->
+        <!--into img tag try to use height or width tag not both for same time-->
+        <img src="/img.jpg" alt="laptop" height="250" />
+        <br>
+        <!--for proper paragraph which can count spaces and other which want to show on website-->
+        <pre> 
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Debitis quibusdam ullam nam ipsum sapiente molestiae fugit, 
+            provident dignissimos corrupti asperiores voluptatibus deserunt minus harum natus officiis culpa error sed exercitationem.
+        </pre>
+
+    </main>
+
+    <!--using sementic tag very good impression in website also good user experience-->
+    <!--sementic tags are : 
+    1.<header>
+    2.<main>
+    3.<footer>-->
+
+    <!--HEADER-->
+    <header>
+                <h4>Education    Projects</h4>
+    </header>
+
+    <!--MAIN-->
+    <main>
+        <!--website all main contain is in main tag
+        Inside Main Tag : -->
+
+        <!--Section Tag : For a section on your page-->
+        <section> Education : SSBT(COE) | School(MJ) </section>
+        <section>Hobbies : singing , writing</section>
+
+        <article>
+            <!--Article Tag: For an article on your page-->
+        </article>
+
+        <aside>
+            <!--Aside Tag: for content aside main content(ads)-->
+        This is an ad
+        </aside>
+
+        <div>
+            <!--Div is a container used for other HTML elements
+            this is Bloak element(takes full width)-->
+            <p>Hello World </p>
+            <p>Namastey !</p>
+        </div>
+
+        <div>
+            <p>Good Bye ...</p>
+        </div>
+
+        <span>
+            <!--span is also a container used for other HTML elements
+            span is inline element (takes width as per size . . )-->
+             <p>Anneyoung</p>
+        </span>
+
+        <!--List in HTML : 
+        List are used to represent real life list data -->
+        
+        <!--Unordered List-->
+        <ul>
+            <!--list . .-->
+            <li>Apple
+                <ul>
+                    <li>color : red</li>
+                    <li>season : winter</li>
+                </ul>
+            </li>
+            <li>Mango
+            <ul>
+                <li>color : yellow</li>
+                <li>season : summer</li>
+            </ul>
+            </li>
+            <li>Banana
+                <ul>
+                    <li>color : light green</li>
+                </ul>
+            </li>
+        </ul>
+
+        <!--Ordered List-->
+        <ol>
+            <li>Apple
+                <ol>
+                    <li>color : red</li>
+                </ol>
+            </li>
+            <li>Mango
+                <ol>
+                    <li>color : yellow</li>
+                </ol>
+            </li>
+            <li>Banana</li>
+        </ol>
+
+
+        <!--Tables in HTML
+        Tables are used to represent real life table data -->
+
+        <tr></tr> <!--used to display table row . .-->
+        <td></td> <!--used to display table data . .-->
+        <th></th> <!--used to display table header . .-->
+
+<!--table tag is semantic tag . .-->
+        <table>
+            <!--Caption in Tables . .-->
+            <caption>Student Data </caption>
+            <!--thead and tbody in Tables-->
+            <!--thead : to wrap table head . .-->
+            <thead>
+                <tr>
+                    <!-- colspan is used used to create cells which spans over multiple columns
+                        for give name to two rows to merge colm-->
+                    <th colspan="2">Information</th>
+                </tr>
+            </thead>
+            <thead>
+            <tr>
+                <th>Name</th>
+                <th>Roll_no</th>
+            </tr>
+            </thead>
+
+            <!--tbody : to wrap tables body . .-->
+            <tbody>
+            <tr>
+                <td>Siya</td>
+                <td>1152</td>
+            </tr>
+
+            <tr>
+                <td>Sham</td>
+                <td>1452</td>
+            </tr>
+            
+            <tr>
+                <td>Shiv</td>
+                <td>1010</td>
+            </tr>
+            </tbody>
+        </table>
+        <br>
+
+
+        <!--very important topic ...
+        Form in HTML . . .
+        Form are used to collect data from the user
+        Eg - sign up / login / help requests / contact me . .-->
+
+        <!--Action in Form : 
+        Action attribute is used to define what action needs to be 
+        performed when a form is submitted . .-->
+    
+        <caption>Form : </caption>
+       <form action = "/action.py">
+
+        <h3>Registration Form</h3>
+        <input type = "text" placeholder="username">
+        <br>
+        <input type="password" placeholder="password">
+        <br>
+        <!--Labels in HTML
+        radio button for select any option  form . .
+        label are use for radio button that using label 
+        can click on text so to select option  . . -->
+
+        <h4>Select your class : </h4>
+        <label>
+        <input type="radio" value="class XI" name="class">class XI 
+        </label>
+        <br>
+        <label>
+        <input type="radio" value="class XII" name="class">class XII
+        </label>
+      
+       
+       <!--Class and ID-->
+      
+       <div id="id1" class="group1"></div>
+       <div id="id2" class="group1"></div>
+
+        <!--checkbox type . . .-->
+        <h4>Select your subjects : </h4>
+       <label>
+        <input type="checkbox" value="Math" name="Subject" id="101">Math
+       </label>
+
+       <label>
+        <input type="checkbox" value="Physics" name="Subject" id="102">Physics
+       </label>
+
+        <label>
+        <input type="checkbox" value="Chemistry" name="Subject" id="103">Chemistry
+        </label>
+
+        <label>
+            <input type="checkbox" value="Computer_Science" name="Subject" id="104">Computer_Science
+        </label>
+
+        <label>
+            <input type="checkbox" value="Bio" name="Subject" id="105">Bio
+        </label>
+        <br>
+        <br>
+
+        <!--select tag : 
+                a dropdown option to select from given list . .-->
+        <h4>select your city : </h4>
+        <select name="city">
+            <option value="Delhi">Delhi</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Pune">Pune</option>
+            <option value="Banglor">Banglor</option>
+            <option value="Hydrabad">Hydrabad</option>
+            <option value="Chennai">Chennai</option>
+        </select>
+        <br>
+        <br>
+
+        <!--te0xtarea :
+        tag is use for user can write in that box as feedback . .-->
+        <h5>Give your valueable feedback</h5>
+        <textarea name="feedback" id="101" placeholder="feedback" 
+        rows="5" cols="50"></textarea>
+        <br>
+
+        <!--submit button-->
+        <input type="submit" value="submit">
+
+       </form>
+       <br>
+       <br>
+
+       <!--iframe tag : website inside website  . .-->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/uULy2rc6YDc" title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen>
+        </iframe>
+
+        <iframe height="300" width="500" src="https://www.wikipedia.org/">
+        </iframe>
+
+        
+        <!--some websites are refuse to this functionality-->
+        <!-- <iframe height="300" width="500" src="https://www.google.com"></iframe> -->
+
+        <br>
+        <br>
+
+        <!--Video Tag : 
+        It's used to play video on web page   . .-->
+        <video height="300" width="500" src = "/MyVdo.mov" controls loop>Motivation_vdo</video>
+    
+    </main>
+
+    <!--FOOTER-->
+    <footer>
+        <h5>Contact me at hello@ac.com</h5>
+        &copy; All rights reserved 
+    </footer>
+
+
+
+   
+</body>
+</html>
